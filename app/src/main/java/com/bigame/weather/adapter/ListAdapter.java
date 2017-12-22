@@ -21,15 +21,7 @@ import java.util.List;
  * Created by burakisik on 8/24/2017.
  */
 
-//https://www.codeproject.com/Articles/729759/Android-Sensor-Fusion-Tutorial
-//https://github.com/romannurik/muzei/tree/master/android-client-common/src/main
-//https://github.com/BrimeNotes/android/tree/master/app/src/main
 
-
-//https://stackoverflow.com/questions/8166497/custom-adapter-for-list-view
-//https://stackoverflow.com/questions/25501460/android-custom-arrayadapter
-
-//http://abhiandroid.com/ui/custom-arrayadapter-tutorial-example.html
 //https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
 
 public class ListAdapter  extends ArrayAdapter<Weather> {
@@ -81,7 +73,6 @@ public class ListAdapter  extends ArrayAdapter<Weather> {
 
                         condIconImageView.setImageBitmap(weather.iconData);
                     }
-                    //condIconTextView.setText(weather.currentCondition.getIcon());
                 }
             }
 
